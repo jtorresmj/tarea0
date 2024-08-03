@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="header-container">
+            <div class="header-bg"></div>
+            <div class="header-content">
+                <img src="/assets/btm-logo.png" alt="Perfil" width="80">
+                <h1> Jonatan torres </h1>
+                <nav>
+                    <a href="#">Inicio</a>
+                    <a href="#">Php</a>
+                    <a href="#">Net</a>
+                    <a href="#">Java</a>
+                </nav>
+            </div>
+            <div class="header-bg"></div>
+        </div>
+    </div>
+    <div class="content">
+        <h2>Lenguajes de Programación</h2>
+
+        <div class="container-ul">
+            <ul>
+                <li><img class="imgPng" src="/assets/google.jpg" alt="google">1. Páginas Web
+                    <ul>
+                        <li><img class="imgPng" src="/assets/jsp.png" alt="Jsp">Jsp</li>
+                        <li><img class="imgPng" src="/assets/aspx.png" alt="Aspx">Aspx</li>
+                        <li><img class="imgPng" src="/assets/php.png" alt="Php">Php</li>
+                    </ul>
+                </li>
+                <li><img class="imgPng" src="/assets/google.jpg" alt="google">2. Aplicaciones
+                    <ul>    
+                        <li><img class="imgPng" src="/assets/java.png" alt="Java">Java</li>
+                        <li><img class="imgPng" src="/assets/vb.png" alt="VB">Visual Basic</li>
+                        <li><img class="imgPng" src="/assets/csharp.png" alt="C#">C#</li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+     
+
+        <div class="container">
+            <div class="table-container">
+                <table>
+                    <tr>
+                        <th>Programacion Web</th>
+                        <th></th>
+                    </tr>
+                    <tr>
+                        <td>Asp</td>
+                        <td>Jsp</td>
+                    </tr>
+                    <tr>
+                        <td>Php</td>
+                        <td>Ruby</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Go</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    
+
+
+    <div class="container">
+        <div class="form-container">
+                <form onsubmit="showAlert(event)">
+                    <input type="text" id="nombres" placeholder="Ingrese Nombres" required>
+                    <input type="text" id="apellidos" placeholder="Ingrese Apellidos" required>
+                    <input type="text" id="telefono" placeholder="Ingrese Numero Telefónico" required>
+                    <input type="email" id="email" placeholder="Ingrese Correo Electrónico" required>
+                    <input type="date" id="fechaNacimiento" required>
+                    <textarea id="mensaje" placeholder="Ingrese el Mensaje" required></textarea>
+                    <button type="button" onclick="mostrarDatos()">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <div class="social-section">
+            <title>Redes Sociales</title>
+            </head>
+
+            <body>
+                <a href="#"><img class="imgPngFace" src="/assets/facebook.png" alt="Facebook"></a>
+                <a href="#"><img class="imgPng" src="/assets/X.png" alt="Twitter"></a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>El esfuerzo de hoy es el exito del mañana ©</p>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
